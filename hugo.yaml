@@ -1,26 +1,27 @@
 baseURL: 'https://timjozi911.github.io/'
 languageCode: en-us
-theme: gokarna
+theme: PaperMod
 title: neoThobs
 enableRobotsTXT: true
-menu:
-  main:
-    - identifier: projects
-      url: /posts/
-      pre: "<span data-feather='github'></span>"
-      name: Projects
-      weight: 1
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
-  avatarURL: "/images/me.png"
-  description: Sky above, sand below & peace within
-  accentColor: "#FF4D4D"
-  footer: 'Live, Love, Learn'
-  socialIcons:
-    - name: twitter
-      url: https://example.com
-    - name: linkedin
-      url: https://example.com
-    - name: instagram
-      url: https://example.com
+  profileMode:
+    enabled: true
+    title: "Heita Holla, there internet!"
+    subtitle: "Journey into tech with me"
+    imageUrl: "me.png"
+    imageTitle: "Picture of me"
+    imageWidth: 120
+    imageHeight: 120 
 
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
